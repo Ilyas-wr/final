@@ -344,10 +344,10 @@ ul{
       margin-bottom: 30px; 
     } 
     .footer-col { 
-      width: 50%; 
-      margin-bottom: 30px; 
-      padding-left: 5; 
-    } 
+    width: 100%; 
+    margin-bottom: 30px; 
+    padding-left: 5; 
+    }
     .service-section { 
       padding-left: 0px; 
     } 
