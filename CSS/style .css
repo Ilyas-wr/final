@@ -430,3 +430,32 @@ ul{
     }
 }
 
+@media (max-width: 767px) { 
+    .footer-col { 
+      width: 50%; 
+      margin-bottom: 30px; 
+    } 
+    .footer-col { 
+      width: 50%; 
+      margin-bottom: 30px; 
+      padding-left: 5; 
+    } 
+    .service-section { 
+      padding-left: 0px; 
+    } 
+    .about { 
+      padding-left: 0px; 
+    } 
+    .about { 
+      padding-right: 0px; 
+    } 
+    .service-section { 
+      padding-right: 0px; 
+    } 
+    span { 
+      visibility: hidden; 
+    } 
+    .footer{
+        width: 100%;
+    }
+  }
