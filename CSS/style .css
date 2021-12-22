@@ -383,53 +383,6 @@ ul{
 }
 
 /*responsive*/
-@media(max-width: 767px){
-  .footer-col{
-    width: 50%;
-    margin-bottom: 30px;
-}
-}
-@media(max-width: 574px){
-  .footer-col{
-    width: 100%;
-}
-}
-
-
-
-
-
-@media (max-width:991px) {
-    html {
-        font-size: 55%;
-    }
-
-    header {
-        padding: 2rem;
-    }
-
-    section {
-        padding: 2rem;
-    }
-
-    .home {
-        background-position: left;
-    }
-    
-}
-
-@media (max-width:450px) {
-    html{
-        font-size: 50%;
-    }
-}
-
-@media screen and (max-width:768px) {
-    .cards-section {
-        grid-template-columns: repeat(1, 1fr);
-    }
-}
-
 @media (max-width: 767px) { 
     .footer-col { 
       width: 50%; 
