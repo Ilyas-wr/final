@@ -87,26 +87,23 @@ function chng_email() {
 		} else break;
 	}
 }
-
-function chng_pswrd() {
+function chng_pswrd(){
 	let usnm = prompt("Write Username")
-	let newpswrd = prompt("Write a new password")
-	for(i = 1; i > 0; i++) {
-		if(localStorage.getItem(i).length > 0) {
-			if(JSON.parse(localStorage.getItem(i)).Name == usnm) {
+	let newpws = prompt("Write Password")
+	for(i=1;i>0;i++){
+		if(localStorage.getItem(i).length>0){
+			if(JSON.parse(localStorage.getItem(i)).Name==usnm){
 				var obj = {
 					Email: JSON.parse(localStorage.getItem(i)).Email,
 					Name: JSON.parse(localStorage.getItem(i)).Name,
-					Password: newpswrd,
-					enable: true
+					Password: newpws,
+					enable: true 
 				};
 				localStorage.setItem(i, JSON.stringify(obj));
 				break;
-				window.location.href = "#";
-			} else {
-				window.alert("Wrong Username");
-				break;
 			}
-		} else break;
+			else{ window.alert("Wrong Username"); break;}
+		}
+		else break;
 	}
 }
