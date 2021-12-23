@@ -66,7 +66,7 @@ function LogIn() {
 		if (localStorage.getItem(i).length > 0) {
 			if (emaillog == JSON.parse(localStorage.getItem(i)).Email && pass == JSON.parse(localStorage.getItem(i)).Password) {
 				if (JSON.parse(localStorage.getItem(i)).enable == true) {
-					open("../1/admin.html")
+					open("admin.html")
 					document.getElementById("logged").innerHTML = ""
 					document.getElementById("incorrect").innerHTML = "You are logged";
 					document.getElementById("incorrect").style = "color: green";
